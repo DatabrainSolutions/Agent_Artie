@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/create-session/route.ts": {
+      "runtime": "edge"
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "NEXT_PUBLIC_CHATKIT_WORKFLOW_ID": "@next_public_chatkit_workflow_id"
+  }
+}
