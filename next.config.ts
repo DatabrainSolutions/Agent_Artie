@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export',
   // Optimize for Vercel deployment
   serverExternalPackages: ["@openai/chatkit-react"],
 
