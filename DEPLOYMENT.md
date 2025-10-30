@@ -1,4 +1,4 @@
-# Corbin Test - ChatKit UI Deployment Guide
+# Agent Artie - ChatKit UI Deployment Guide
 
 This guide will help you deploy the ChatKit UI application to Vercel.
 
@@ -64,7 +64,7 @@ You'll need to set these environment variables in Vercel:
    - Go to [vercel.com/dashboard](https://vercel.com/dashboard)
    - Click "New Project"
    - Import your GitHub repository
-   - Set project name to `corbin_test`
+   - Set project name to `agent_artie`
 
 3. **Configure Environment Variables**:
 
@@ -110,7 +110,7 @@ After successful deployment:
 ## Project Structure
 
 ```
-corbin_test/
+agent_artie/
 ├── app/
 │   ├── api/create-session/route.ts  # API endpoint for ChatKit sessions
 │   ├── layout.tsx                   # Root layout with ChatKit script

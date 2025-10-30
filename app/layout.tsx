@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Corbin Test - ChatKit UI",
+  title: "Agent Artie - ChatKit UI",
   description: "OpenAI ChatKit UI application for testing",
 };
 
